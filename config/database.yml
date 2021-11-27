@@ -27,5 +27,6 @@ test:
 production:
   <<: *default
   adapter: postgresql
+  host: localhost
   database: db/production.sqlite3
 
